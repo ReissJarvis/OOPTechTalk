@@ -1,6 +1,6 @@
 function Robert(settings){
-  settings.Clubs = settings.Clubs || [];
-  settings.Clubs.push("Board Games");
+  settings.clubs = settings.clubs || [];
+  settings.clubs.push("Board Games");
 
   EtechDeveloper.call(this, settings);
 }

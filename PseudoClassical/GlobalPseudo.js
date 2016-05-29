@@ -17,5 +17,5 @@
   robert.forceTechTalk(reiss);
   console.log(robert.clubs);
 
-  reiss.forceTechTalk(robert);
+  reiss.forceTechTalk(robert); //It will throw an error here
 }())
