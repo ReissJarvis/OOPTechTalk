@@ -1,5 +1,4 @@
 function EtechDeveloper(developerSettings){
-
   if(!Array.isArray(developerSettings.languages)){
     throw "Languages is not an array";
   }
