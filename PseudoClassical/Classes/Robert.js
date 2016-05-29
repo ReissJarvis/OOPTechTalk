@@ -2,8 +2,10 @@ function Robert(settings){
   settings.clubs = settings.clubs || [];
   settings.clubs.push("Board Games");
 
-  EtechDeveloper.call(this, settings);
+  EtechDeveloper.apply(this, arguments);
 }
+
+robert = Object.create(EtechDeveloper.prototype);
 
 Robert.prototype.forceTechTalk = function(developer){
   if(!developer instanceof EtechDeveloper){
