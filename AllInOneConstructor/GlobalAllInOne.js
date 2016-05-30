@@ -14,4 +14,6 @@
   eagle.run(10);
   eagle.land();
   eagle.eat();
+
+  console.log(eagle instanceof Animal);
 }())

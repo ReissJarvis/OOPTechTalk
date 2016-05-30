@@ -5,7 +5,7 @@ function Robert(settings){
   EtechDeveloper.apply(this, arguments);
 }
 
-robert = Object.create(EtechDeveloper.prototype);
+Robert = Object.create(EtechDeveloper.prototype);
 
 Robert.prototype.forceTechTalk = function(developer){
   if(!developer instanceof EtechDeveloper){
