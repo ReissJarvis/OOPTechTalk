@@ -17,12 +17,20 @@ function Bird(name, canFly){
   }
 
   this.fly = function(length){
-    this.hunger += length;
-    this.isFlying = true;
-    console.log(this.name + " is flying");
+    if(canFly){
+      this.hunger += length;
+      this.isFlying = true;
+      console.log(this.name + " is flying");
+      return;
+    }
+    console.log("This bird tried to fly but it failed.")
   }
   this.land = function(){
+    if(!this.isFlying){
     this.isFlying = false;
     console.log(this.name + " has landed");
+    return;
+  }
+  console.log("This bird is already on land!")
   }
 }
