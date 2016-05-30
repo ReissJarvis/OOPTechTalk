@@ -1,4 +1,4 @@
-require(['Classes/EtechDeveloper', 'Classes/Robert'], function(){
+require(['Classes/EtechDeveloper', 'Classes/Robert'], function(EtechDeveloper, Robert){
   var reiss = new EtechDeveloper({
     name: "Reiss",
     languages:["Javascript", "C#"]

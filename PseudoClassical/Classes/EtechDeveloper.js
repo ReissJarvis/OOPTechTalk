@@ -24,7 +24,6 @@ define([], function(){
   EtechDeveloper.prototype.removeClub = function(club) {
     this.clubs.splice(this.clubs.indexOf(club), 1);
   };
-  return {
-    EtechDeveloper:EtechDeveloper
-  }
+  
+  return EtechDeveloper;
 });
