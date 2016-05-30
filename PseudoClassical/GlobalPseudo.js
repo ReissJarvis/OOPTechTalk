@@ -1,5 +1,4 @@
-
-(function(){
+require(['Classes/EtechDeveloper', 'Classes/Robert'], function(){
   var reiss = new EtechDeveloper({
     name: "Reiss",
     languages:["Javascript", "C#"]
@@ -18,4 +17,4 @@
   console.log(robert.clubs);
 
   reiss.forceTechTalk(robert); //It will throw an error here
-}())
+});
