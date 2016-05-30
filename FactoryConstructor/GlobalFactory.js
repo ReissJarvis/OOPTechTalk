@@ -1,7 +1,7 @@
 require(["Classes/Animal", "Classes/Bird"], function(Animal, Bird) {
-    var unidentifiedAnimal = new Animal("unknown");
+    var unidentifiedAnimal = Animal("unknown");
 
-    var eagle = new Bird("Eddie", true);
+    var eagle = Bird("Eddie", true);
 
     //unidentifiedAnimal.fly(); This will error due to it not having the method
 
