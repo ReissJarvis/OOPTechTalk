@@ -14,5 +14,5 @@ require(["Classes/Animal", "Classes/Bird"], function(Animal, Bird) {
     eagle.land();
     eagle.eat();
 
-    console.log("Is Eagle a type of animal : " + eagle instanceof Animal);
+    console.log("Is Eagle a type of animal : " + (eagle instanceof Animal).toString());
 });

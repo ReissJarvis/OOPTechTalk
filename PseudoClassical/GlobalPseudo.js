@@ -16,5 +16,7 @@ require(['Classes/EtechDeveloper', 'Classes/Robert'], function(EtechDeveloper, R
   robert.forceTechTalk(reiss);
   console.log(robert.clubs);
 
+  console.log("Is robert a type of developer : " + (robert instanceof EtechDeveloper).toString());
+
   reiss.forceTechTalk(robert); //It will throw an error here
 });
